@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 
-header.design_1, header.design_1 *{ outline: 1px dotted black;}
+header.design_2, header.design_2 *{ outline: 1px dotted black;}
 
 body{
     display: flex;
@@ -27,7 +27,7 @@ header.design_1{
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    padding: 1rem .5rem;
+    padding: 1rem 2rem;
     background-color: #f5c873d7;
 
     & > img.Burger_Logo{
@@ -43,15 +43,64 @@ header.design_1{
             font-family: 'Poppins', sans-serif;
             font-weight: 550;
             font-size: 1rem;
+            color: black;
 
         }
 
         & > button.Button_1{
             border-radius: 50px;
+            border: solid 2px black;
             padding: .3rem .8rem;
             background-color: #FFA500;
             font-weight: 700;
             font-size: 1rem;
+        }
+    }
+}
+
+header.design_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 1rem 2rem;
+    background-color: #afafafd7;
+
+    & > img.Shoe_Logo{
+        height: 50px;
+    }
+
+    & > nav.Nav2{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        & > a.Nav-content2{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 550;
+            font-size: 1rem;
+            color: black
+
+        }
+
+        & > form.Searcharea_2{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+
+        & > input.Searchbar_2{
+            border-radius: 50px;
+            border: solid 2px black;
+            padding: .3rem .8rem;
+            background-color: #ffffff;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+
+        & > button.fa-solid fa-magnifying-glass{
+            height: 5rem;
+            <!-- I want to increase the size of the icon -->
+            }
         }
     }
 }
