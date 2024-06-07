@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header.design_1, header.design_1 *{ outline: 1px dotted black;}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+header.design_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80rem;
+    padding: 1rem .5rem;
+    background-color: #f5c873d7;
+
+    & > img.Burger_Logo{
+        height: 50px;
+    }
+
+    & > h2.Burger_name{
+        font-family: 'Barbariska', sans-serif;
+        font-weight: 800;
+        font-size: 1.5rem
+        colo
+        
+    }
+
+    & > nav.Nav{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        
+        & > a.Nav-content{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 550;
+            font-size: 1rem;
+            
+        }
+
+        & > button.Button_1{
+            border-radius: 50px;
+            padding: .3rem .8rem;
+            background-color: #FFA500;
+            font-weight: 700;
+            font-size: ;
+        }
+    }
+}
