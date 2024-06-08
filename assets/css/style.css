@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 
-header.design_2, header.design_2 *{ outline: 1px dotted black;}
+header.design_4, header.design_4 *{ outline: 1px dotted black;}
 
 body{
     display: flex;
@@ -101,6 +101,86 @@ header.design_2{
             height: 5rem;
             <!-- I want to increase the size of the icon -->
             }
+        }
+    }
+}
+
+header.design_3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 1rem 1.2rem;
+    background-color: #4cd038 ;
+
+    & > button.Menu_3{
+        display: flex;
+        color: darkgreen;
+        font-weight: 800;
+        text-decoration: none;
+        background-color: transparent;
+        border: none;
+        margin-left: 2rem;
+    }
+
+    nav.Nav-Img3{
+        display: flex;
+        justify-content: center;
+
+        & > img.Herbal-Logo{
+        height: 50px;
+        }
+    }
+}
+
+header.design_4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1877F2;
+    padding: 1rem 2rem;
+    width: 100vw;
+
+    & > img.Sign-Logo{
+        height: 50px;
+    }
+
+    & > nav.Nav4{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        & > a.Nav-content4{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            color: white;
+        }
+    }
+
+    & > nav.Sign-Buttons{
+        display: flex;
+        gap: 1rem;
+
+        & > button.Sign-In{
+            border-radius: 50px;
+            border: solid 2px white;
+            padding: .3rem .9rem;
+            background-color: transparent;
+            font-weight: 750;
+            font-size: 1rem;
+            color: white;
+        }
+
+        & > button.Sign-Up{
+            border-radius: 50px;
+            border: solid 2px white;
+            padding: .3rem .9rem;
+            background-color: transparent;
+            font-weight: 750;
+            font-size: 1rem;
+            color: white;
         }
     }
 }
