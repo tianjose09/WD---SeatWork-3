@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 
-header.design_4, header.design_4 *{ outline: 1px dotted black;}
+header.design_5, header.design_5 *{ outline: 1px dotted black;}
 
 body{
     display: flex;
@@ -184,3 +184,54 @@ header.design_4{
         }
     }
 }
+
+header.design_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    gap: 3rem;
+    width: 100vw;
+    padding: 1rem;
+
+    nav.Logo-5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    & > img.Penguin-Logo{
+        height: 50px;
+    }
+}
+    & > nav.Left-5{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        & > a.Nav-content5{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            color: white;
+        }
+    }
+
+    & > nav.Right-5{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-items: flex-end;
+        margin-right: 5rem;
+        & > a.Nav-content5{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            color: white;
+        }
+    }
+    & > nav.Search{
+        display: flex;
+        padding-left:
+  }
+}
+
