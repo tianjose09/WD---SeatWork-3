@@ -98,8 +98,13 @@ header.design_2{
         }
 
         & > button.fa-solid fa-magnifying-glass{
-            height: 5rem;
+            height: 2rem;
             <!-- I want to increase the size of the icon -->
+            }
+
+        & > button.Magnify{
+            height: 2rem;
+            padding-left: 2rem;
             }
         }
     }
