@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 
-header.design_5, header.design_5 *{ outline: 1px dotted black;}
+/*header.design_5, header.design_5 *{ outline: 1px dotted white;}*/
 
 body{
     display: flex;
@@ -138,6 +138,7 @@ header.design_3{
             background-color: transparent;
             border: none;
             gap: 1rem;
+            padding-left: 2rem;
         }
     }
     & > nav.Nav-Img3{
@@ -164,14 +165,15 @@ header.design_3{
             height: 2rem;
             color: white;
         }
-    
     }
 }
 
 header.design_4{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     background-color: #1877F2;
     padding: 1rem 2rem;
     width: 100vw;
@@ -184,6 +186,7 @@ header.design_4{
         display: flex;
         gap: 1rem;
         align-items: center;
+        justify-content: center;
 
         & > a.Nav-content4{
             font-family: Arial, Helvetica, sans-serif;
@@ -196,7 +199,7 @@ header.design_4{
     & > nav.Sign-Buttons{
         display: flex;
         gap: 1rem;
-
+        justify-content: flex-end;
         & > button.Sign-In{
             border-radius: 50px;
             border: solid 2px white;
@@ -284,4 +287,51 @@ header.design_5{
             
         }
   }
+}
+
+/* Design Animations for the headers */
+
+header.design_1-Animations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 1rem 2rem;
+    background-color: #f5c873d7;
+
+    & > img.Burger_Logo{
+        height: 50px;
+        transition: all .3s ease;
+        &:hover{
+            transform: scale(1.4);
+        }
+    }
+
+    & > nav.Nav1{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        & > a.Nav-content{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 550;
+            font-size: 1rem;
+            color: black;
+
+            & > :hover{
+                height: 100%;
+                box-shadow: 0px 4px 8px rgba(255, 0, 0, 0.2);
+            }
+        } 
+
+        & > button.Button_1{
+            border-radius: 50px;
+            border: solid 2px black;
+            padding: .3rem .8rem;
+            background-color: #FFA500;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+    }
 }
