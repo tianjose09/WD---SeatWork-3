@@ -21,3 +21,64 @@ section{
 
     background-color: #EEEEEE;
 }
+
+footer.design-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: #373A40;
+
+    & > nav.Left-side{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+
+        & > h5{
+            color: #e36e09c2;
+            text-decoration: none;
+        }
+
+        & > h2{
+            color: #dddddd;
+            text-decoration: none;
+        }
+
+        & > h4{
+            color: #ffac63c2;
+            text-decoration: none;
+        }
+        
+        & > p{
+            color: #72767b;
+            text-decoration: none;
+        }
+    }
+
+    & > nav.Right-side{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+
+        & > h5{
+            color: #e36e09c2;
+            text-decoration: none;
+        }
+
+        & > p{
+            color: #72767b;
+            text-decoration: none;
+        }
+        & > img.Img-footer-1{
+            height: 100px;
+        }
+    } 
+   
+}
