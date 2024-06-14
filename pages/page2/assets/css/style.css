@@ -82,3 +82,117 @@ footer.design-1{
     } 
    
 }
+
+footer.design-2{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    & > nav.Whole-nav{
+        color: #373A40;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 4rem;
+        gap: 1rem;
+
+        & > nav.Nav-first{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 1rem;
+            margin-right: 2rem;
+
+            & > a.Nav-content{
+            color: #72767b;
+            text-decoration: solid;
+            word-wrap: normal;
+            width: 5rem;
+            }
+
+            & > p{
+            color: #72767b;
+            text-decoration: none;
+            word-wrap: normal;
+            width: 5rem;
+            }
+        }
+
+        & > nav.Nav-second{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 1rem;
+            margin-right: 2rem;
+
+            & > a.Nav-content{
+            color: #72767b;
+            text-decoration: solid;
+            word-wrap: normal;
+            width: 5rem;
+            }
+
+            & > p{
+            color: #72767b;
+            text-decoration: none;
+            word-wrap: normal;
+            width: 5rem;
+            }
+        }
+
+        & > nav.Nav-third{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 1rem;
+            margin-right: 2rem;
+
+            & > a.Nav-content{
+            color: #72767b;
+            text-decoration: solid;
+            word-wrap: normal;
+            width: 5rem;
+            }
+        }
+
+        & > nav.Nav-fourth{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 1rem;
+            margin-right: 2rem;
+
+            & > a.Nav-content{
+            color: #72767b;
+            text-decoration: solid;
+            word-wrap: normal;
+            width: 5rem;
+            }
+        }
+    }
+
+    & > nav.Nav-under{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1rem;
+        width: 60vw;
+        margin-right: 8rem;
+
+        & > nav.Nav-left{
+        display: flex;
+        padding: 1rem;
+
+            & > button.Language{
+                color: transparent;
+                border: solid 1px #373A40;
+            }
+    }
+    }
+}
