@@ -239,6 +239,7 @@ header.design_5{
         align-items: center;
         gap: 3rem;
         padding: 1rem;
+        margin-left: 2rem;
     nav.Logo-5{
         display: flex;
         justify-content: center;
@@ -266,7 +267,7 @@ header.design_5{
         gap: 1rem;
         align-items: center;
         justify-items: flex-end;
-
+        width: 10rem;
         & > a.Nav-content5{
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 600;
@@ -319,7 +320,7 @@ header.design_1-Animations{
             font-size: 1rem;
             color: black;
 
-            & > :hover{
+            &:hover{
                 height: 100%;
                 box-shadow: 0px 4px 8px rgba(255, 0, 0, 0.2);
             }
@@ -334,4 +335,325 @@ header.design_1-Animations{
             font-size: 1rem;
         }
     }
+}
+
+
+header.design_2-animations{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 1rem 2rem;
+    background-color: #afafafd7;
+    transition: background-color .3s ease;
+
+    &:hover{
+        background-color: #6b6b6bb4;
+    }
+
+    & > img.Shoe_Logo{
+        height: 50px;
+        transition: transform .3s ease;
+
+        &:hover{
+            transform: scale(1.4);
+        }
+    }
+
+    & > nav.Nav2{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        & > a.Nav-content2{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 550;
+            font-size: 1rem;
+            color: black;
+            transition: color .3s ease, transform .3s ease;
+
+            &:hover{
+                color: #dcdad5;
+                transform: scale(1.1);
+            }
+        }
+
+        & > form.Searcharea_2{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+
+            & > input.Searchbar_2{
+                border-radius: 50px;
+                border: solid 2px black;
+                padding: .3rem .8rem;
+                background-color: #ffffff;
+                font-weight: 700;
+                font-size: 1rem;
+                transition: border-color .3s ease,transform .3s ease;
+
+                &:hover{
+                    border-color: #dcdad5;
+                    transform: scale(1.1);
+                }
+            }
+            & > .fa-solid.fa-magnifying-glass{
+                height: 2rem;
+                position: absolute;
+                right: 2.8rem;
+                padding-top: .4rem;
+
+                }
+        }
+
+
+
+        & > button.Magnify{
+            height: 2rem;
+            padding-left: 2rem;
+            }
+
+    }
+}
+
+header.design_3-animations{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    width: 100vw;
+    padding: 1rem 1.2rem;
+    background-color: #4cd038 ;
+
+    & > nav.Nav-Left{
+        display: flex;
+        align-items: center;
+
+        & > button.Menu_3{
+            display: flex;
+            color: darkgreen;
+            font-weight: 800;
+            text-decoration: none;
+            background-color: transparent;
+            border: none;
+            gap: 1rem;
+            padding-left: 2rem;
+            transition: color .3s ease, transform .3s ease;
+
+            &:hover{
+                color: rgb(0, 162, 0);
+                transform: scale(1.1);
+            }
+        }
+    }
+    & > nav.Nav-Img3{
+        display: flex;
+        justify-content: center;
+
+        & > img.Herbal-Logo{
+        height: 50px;
+        }
+    }
+    & > nav.Icons-arrange{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 1.6rem;
+        gap: 1rem;
+        align-items: center;
+
+        & > .fa-solid.fa-magnifying-glass{
+            color: rgb(66, 114, 71);
+            transition: color .3s ease, transform .3s ease;
+
+            &:hover{
+                color: #86aa7c;
+                transform: scale(1.1);
+            }
+        }
+
+        & > .fa-solid.fa-cart-shopping{
+            color: rgb(66, 114, 71);
+            transition: color .3s ease, transform .3s ease;
+
+            &:hover{
+                color: #86aa7c;
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+header.design_4-animations{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #1877F2;
+    padding: 1rem 2rem;
+    width: 100vw;
+    transition: background-color .3s ease;
+
+    &:hover{
+        background-color: #0900b4;
+    }
+
+    & > img.Sign-Logo{
+        height: 50px;
+        transition: transform .3s ease;
+
+        &:hover{
+            transform: rotate(360deg);
+        }
+    }
+
+    & > nav.Nav4{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+
+        & > a.Nav-content4{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            color: white;
+            transition: color .3s ease, transform .3s ease;
+
+            &:hover{
+                color: black;
+                transform: translateY(-5px);
+            }
+        }
+    }
+
+    & > nav.Sign-Buttons{
+        display: flex;
+        gap: 1rem;
+        justify-content: flex-end;
+        & > button.Sign-In{
+            border-radius: 50px;
+            border: solid 2px white;
+            padding: .3rem .9rem;
+            background-color: transparent;
+            font-weight: 750;
+            font-size: 1rem;
+            color: white;
+            transition: background-color .3s ease, transform .3s ease;
+
+            &:hover{
+                background-color: white;
+                color: black;
+                transform: scale(1.1);
+            }
+        }
+
+        & > button.Sign-Up{
+            border-radius: 50px;
+            border: solid 2px white;
+            padding: .3rem .9rem;
+            background-color: transparent;
+            font-weight: 750;
+            font-size: 1rem;
+            color: white;
+            transition: background-color .3s ease, transform .3s ease;
+
+            &:hover{
+                background-color: white;
+                color: black;
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+header.design_5-animations{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: black;
+    gap: 3rem;
+    width: 100vw;
+    padding: 1rem;
+
+    nav.Center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding: 1rem;
+        margin-left: 2rem;
+    nav.Logo-5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    & > img.Penguin-Logo{
+        height: 50px;
+        transition: transform .3s ease;
+
+        &:hover{
+            transform: translateY(-10px);
+        }
+        }
+    }
+    & > nav.Left-5{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        & > a.Nav-content5{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            color: white;
+            transition: color .3s ease, transform .3s ease;
+
+            &:hover{
+                color: grey;
+                transform: translatex(10px);
+            }
+        }
+    }
+
+    & > nav.Right-5{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-items: flex-end;
+        width: 10rem;
+        & > a.Nav-content5{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            color: white;
+            transition: color .3s ease, transform .3s ease;
+
+            &:hover{
+                color: grey;
+                transform: translatex(10px);
+            }
+            }
+        }
+    }
+    & > nav.Search{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 2.2rem;
+        
+        & > .fa-solid.fa-magnifying-glass{
+            height: 30px;
+            color: white;
+            transition: color .3s ease, transform .3s ease;
+
+            &:hover{
+                color: grey;
+                transform: scale(1.2);
+        }
+  }
 }
