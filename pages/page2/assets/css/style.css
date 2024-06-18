@@ -389,7 +389,7 @@ footer.design-4{
                 & > .fa-solid.fa-magnifying-glass{
                     height: 2rem;
                     position: absolute;
-                    padding-left: 13.3rem;
+                    right: 36.6rem;
                     padding-top: .5rem;
                 }
             }
@@ -968,7 +968,7 @@ footer.design-4-animations{
                 & > .fa-solid.fa-magnifying-glass{
                     height: 2rem;
                     position: absolute;
-                    padding-left: 13.3rem;
+                    right: 36.6rem;
                     padding-top: .5rem;
                 }
             }
