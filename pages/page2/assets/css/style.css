@@ -495,6 +495,11 @@ footer.design-1-animations{
     padding: 1rem;
     gap: 1rem;
     background-color: #373A40;
+    transition: background-color .3s ease-in-out;
+
+    &:hover{
+        background-color: #767676c2;
+    }
 
     & > nav.Left-side{
         display: flex;
@@ -511,6 +516,11 @@ footer.design-1-animations{
         & > h2{
             color: #dddddd;
             text-decoration: none;
+            transition: color .3s ease-in-out;
+
+            &:hover{
+                color: black;
+            }
         }
 
         & > h4{
@@ -543,6 +553,11 @@ footer.design-1-animations{
         & > img.Img-footer-1{
             height: 150px;
             margin-left: 3rem;
+            transition: height .3s ease-in-out;
+
+            &:hover{
+                height: 200px;
+            }
         }
     } 
    
@@ -576,6 +591,13 @@ footer.design-2-animations{
             text-decoration: solid;
             word-wrap: normal;
             width: 5rem;
+            transition: color .3s ease-in-out;
+            transition: transform .3s ease-in-out;
+
+                &:hover{
+                    color: black;
+                    transform: scale(1.2);
+                }
             }
 
             & > p{
@@ -599,6 +621,13 @@ footer.design-2-animations{
             text-decoration: solid;
             word-wrap: normal;
             width: 5rem;
+            transition: color .3s ease-in-out;
+            transition: transform .3s ease-in-out;
+
+                &:hover{
+                    color: black;
+                    transform: scale(1.2);
+                }
             }
 
             & > p{
@@ -622,6 +651,13 @@ footer.design-2-animations{
             text-decoration: solid;
             word-wrap: normal;
             width: 5rem;
+            transition: color .3s ease-in-out;
+            transition: transform .3s ease-in-out;
+
+                &:hover{
+                    color: black;
+                    transform: scale(1.2);
+                }
             }
         }
 
@@ -638,6 +674,13 @@ footer.design-2-animations{
             text-decoration: solid;
             word-wrap: normal;
             width: 5rem;
+            transition: color .3s ease-in-out;
+            transition: transform .3s ease-in-out;
+
+                &:hover{
+                    color: black;
+                    transform: scale(1.2);
+                }
             }
         }
     }
@@ -660,6 +703,11 @@ footer.design-2-animations{
                 padding: .3rem;
                 font-size: 1rem;
                 color: black;
+                transition: backgroung-color .3s ease-in-out;
+
+                &:hover{
+                    background-color: darkgray;
+                }
 
                 & > i.fa-solid.fa-globe{
                     padding-right: .3rem;
@@ -689,16 +737,31 @@ footer.design-2-animations{
         & > button.Facebook{
             border: none;
             background: none;
+            transition: transform .3s ease-in-out;
+
+                &:hover{
+                    transform: scale(2);
+                }
         }
 
         & > button.Twitter{
             border: none;
             background: none;
+            transition: transform .3s ease-in-out;
+
+                &:hover{
+                    transform: scale(2);
+                }
         }
 
         & > button.Pinterest{
             border: none;
             background: none;
+            transition: transform .3s ease-in-out;
+
+                &:hover{
+                    transform: scale(2);
+                }
         }
     }
 
@@ -739,6 +802,12 @@ footer.design-3-animations{
             & > a.Nav-content{
                 color: white;
                 text-decoration: none;
+                transition: color .3s ease, transform .3s ease;
+
+            &:hover{
+                color: rgb(67, 58, 58);
+                transform: translatex(10px);
+            }
             }
         }
     }
@@ -756,6 +825,11 @@ footer.design-3-animations{
             font-size: 1rem;
             color: black;
             border-radius: 10px;
+            transition: transform .3s ease;
+
+            &:hover{
+                transform: translateY(-5px);
+            }
         }
 
         nav.Name3{
