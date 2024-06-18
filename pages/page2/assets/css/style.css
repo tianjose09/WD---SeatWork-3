@@ -591,8 +591,7 @@ footer.design-2-animations{
             text-decoration: solid;
             word-wrap: normal;
             width: 5rem;
-            transition: color .3s ease-in-out;
-            transition: transform .3s ease-in-out;
+            transition: color .3s ease-in-out, transform .3s ease-in-out;
 
                 &:hover{
                     color: black;
@@ -712,7 +711,6 @@ footer.design-2-animations{
                 & > i.fa-solid.fa-globe{
                     padding-right: .3rem;
                 }
-                
             }
         }
 
@@ -720,7 +718,7 @@ footer.design-2-animations{
         display: flex;
         align-items: center;
         padding: 1rem;
-            
+
         & > p.copyright{
             color: #72767b;
             text-decoration: none;
@@ -853,6 +851,11 @@ footer.design-4-animations{
     align-items: center;
     font-size: 13px;
     width: 100vw;
+    transition: background-color .3s ease-in-out;
+
+    &:hover{
+        background-color: #5b74b5;
+    }
 
     & > nav.Nav-upper{
         display: flex;
@@ -873,6 +876,11 @@ footer.design-4-animations{
                 color: white;
                 padding: 1rem;
                 text-decoration: none;
+                transition: color .3s ease;
+
+            &:hover{
+                color: black;
+            }
             }
         }
 
@@ -881,18 +889,33 @@ footer.design-4-animations{
                 border: none;
                 background: 70px #525CEB ;
                 border-radius: 50px;
+                transition: transform .3s ease;
+
+                &:hover{
+                    transform: scale(1.5);
+                }
             }
     
             & > button.Twitter{
                 border: none;
                 background: 70px #525CEB ;
                 border-radius: 50px;
+                transition: transform .3s ease;
+
+                &:hover{
+                    transform: scale(1.5);
+                }
             }
     
             & > button.Pinterest{
                 border: none;
                 background: 70px #525CEB ;
                 border-radius: 50px;
+                transition: transform .3s ease;
+
+                &:hover{
+                    transform: scale(1.5);
+                }
             }
         }
     }
@@ -906,6 +929,12 @@ footer.design-4-animations{
             justify-content: center;
             align-items: center;
             gap: 1rem;
+            transition: color .3s ease,transform .3s ease;
+
+                &:hover{
+                    color: #b18e36;
+                    transform: translateX(10px);
+                }
 
             & > h3{
                 font-size: 11px ;
@@ -915,7 +944,13 @@ footer.design-4-animations{
                 display: flex;
                 gap: 1rem;
                 align-items: center;
-    
+                transition: border-color .3s ease,transform .3s ease;
+
+                &:hover{
+                    border-color: #dcdad5;
+                    transform: scale(1.1);
+                }
+
                 & > input.Searchbar_2{
                     border-radius: 50px;
                     border: solid 2px black;
@@ -923,6 +958,7 @@ footer.design-4-animations{
                     background-color: #ffffff;
                     font-weight: 700;
                     font-size: 1rem;
+                    
                 }
                 & > .fa-solid.fa-magnifying-glass{
                     height: 2rem;
@@ -937,6 +973,11 @@ footer.design-4-animations{
             padding: .1rem;
             font-size: .8rem;
             border: none;
+            transition: transform .3s ease;
+
+                &:hover{
+                    transform: scale(1.5);
+                }
         }
         }
     }
@@ -948,6 +989,12 @@ footer.design-5-animations{
     padding: 1rem;
     font-size: 1rem;
     text-decoration: none;
+    transform: all .3s ease-in-out, transform .3s ease-in-out;
+
+    &:hover{
+        background-color: #f5f5f5;
+        transform: scale(1.1);
+    }
 
     & > nav.Logo{
         display: flex;
@@ -976,6 +1023,11 @@ footer.design-5-animations{
         & > a.Links{
             color: black;
             text-decoration: none;
+            transition: color .3s ease;
+
+            &:hover{
+                color: #E89EEE;
+            }
         }
     }
 
@@ -989,6 +1041,11 @@ footer.design-5-animations{
         & > a.Links-second{
             color: black;
             text-decoration: none;
+            transition: color .3s ease;
+
+            &:hover{
+                color: #E89EEE;
+            }
         }
     }
 
@@ -1004,6 +1061,11 @@ footer.design-5-animations{
             border: solid black 2px;
             border-radius: 50px;
             padding: .8rem;
+            transition: transform .3s ease;
+
+                &:hover{
+                    transform: scale(1.5);
+                }
         }
     }
 
