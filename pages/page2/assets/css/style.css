@@ -958,7 +958,12 @@ footer.design-4-animations{
                     background-color: #ffffff;
                     font-weight: 700;
                     font-size: 1rem;
-                    
+                    transition: border-color .3s ease,transform .3s ease;
+
+                &:hover{
+                    border-color: #dcdad5;
+                    transform: scale(1.1);
+                }
                 }
                 & > .fa-solid.fa-magnifying-glass{
                     height: 2rem;
