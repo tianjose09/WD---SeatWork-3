@@ -13,6 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
+  The repository provided will show the accomplished static and animated header and footer designs.
 </div>
 
 <br />
@@ -103,3 +104,10 @@ WD-ProjectName
 └─ index.html
 └─ readme.md
 ```
+
+## Resources
+
+<!-- TODO: Add References -->
+| Title | Purpose | Link |
+|-|-|-|
+| Penguin Logo | used the Penguin illustration many times as the logo for the designs |(https://www.google.com/imgres?q=penguin%20in%20circle%20black%20and%20white&imgurl=https%3A%2F%2Fih1.redbubble.net%2Fimage.4729643387.7600%2Fraf%2C360x360%2C075%2Ct%2Cfafafa%3Aca443f4786.jpg&imgrefurl=https%3A%2F%2Fwww.redbubble.com%2Fi%2Fposter%2FPenguin-in-Circle-by-youmiichi%2F138047600.E40HW&docid=3f4cawMc0fkScM&tbnid=78-DevlWZlryuM&vet=12ahUKEwiYkajK-vaGAxURklYBHTTpBII4ChAzegQIbRAA..i&w=360&h=360&hcb=2&itg=1&ved=2ahUKEwiYkajK-vaGAxURklYBHTTpBII4ChAzegQIbRAA)
